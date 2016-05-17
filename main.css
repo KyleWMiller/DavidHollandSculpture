@@ -1,0 +1,28 @@
+.hundo {
+  height: 100vw;
+}
+
+.nav-titledh {
+  padding-left: 20px !important;
+}
+
+.nav-optdh {
+  margin: 20px;
+}
+
+.nav-optdh-bot {
+  margin-right: 20px;
+  transform: translateY(-30deg);
+}
+
+.no-bot {
+  margin-bottom: 0px;
+}
+
+.cir-bot {
+  display: inline-block;
+}
+
+.in-b-line {
+  display: inline-block;
+}
