@@ -1,0 +1,55 @@
+.nav-titledh {
+  padding-left: 20px !important;
+}
+.nav-optdh {
+  margin: 20px;
+}
+.nav-optdh-bot {
+  position: relative;
+  transform: translate(5px, -20px);
+}
+.no-bot {
+  margin-bottom: 0px;
+}
+.in-b-line {
+  display: inline-block;
+}
+.backing {
+  z-index: -10;
+  position: absolute;
+  height: auto;
+}
+
+/*circular CSS*/
+
+.cir-border {
+  display: block;
+  width: 125px;
+  height: 200px;
+  margin: 20px auto 30px;
+  -webkit-border-radius: 50%/60% 60% 40% 40%;
+  -moz-border-radius: 50%/60% 60% 40% 40%;
+  border-radius: 50%/60% 60% 40% 40%;
+}
+.cir-border-main {
+  width: 250px;
+  margin: 20px auto 30px;
+  -webkit-border-radius: 50%/60% 60% 40% 40%;
+  -moz-border-radius: 50%/60% 60% 40% 40%;
+  border-radius: 50%/60% 60% 40% 40%;
+}
+.shadowed {
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cir-side-left {
+  transform: translate(-50px, 50px);
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
