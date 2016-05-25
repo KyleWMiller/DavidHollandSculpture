@@ -13,6 +13,14 @@
         url: '/',
         templateUrl: '/partials/home.html'
       })
+      .state('About', {
+        url: '/About',
+        templateUrl: '/partials/about.html'
+      })
+      .state('Contact', {
+        url: '/Contact',
+        templateUrl: '/partials/contact.html'
+      })
 
     $urlRouterProvider.otherwise('/')
   }

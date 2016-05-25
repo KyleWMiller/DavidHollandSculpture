@@ -58,3 +58,16 @@ body {
   width:350px;
   height:425px;
 }
+
+.aboutBox {
+  width: 30%;
+  height: 350px;
+  border-style: solid;
+  float: right;
+  margin-top: 80px;
+  margin-right: 250px;
+}
+
+.contact {
+  border-style: solid;
+}
