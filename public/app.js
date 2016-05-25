@@ -20,6 +20,10 @@
         url: '/Contact',
         templateUrl: '/partials/contact.html'
       })
+      .state('Slab', {
+        url: '/Slab',
+        templateUrl: '/partials/slab.html'
+      })
 
     $urlRouterProvider.otherwise('/')
   }
