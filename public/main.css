@@ -7,11 +7,9 @@ body {
    flex-direction: column;
    font-family: Rockwell,Courier,Courier,Georgia,Times,Times New Roman,serif;
  }
-
  main {
    flex: 1 0 auto;
  }
-
 .row {
   margin-bottom: 0 !important;
 }
@@ -46,7 +44,7 @@ body {
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-/**/
+/*Customization for images*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 .sml-box {
@@ -58,7 +56,6 @@ body {
   width:350px;
   height:425px;
 }
-
 .aboutBox {
   width: 30%;
   height: 350px;
@@ -67,7 +64,32 @@ body {
   margin-top: 80px;
   margin-right: 250px;
 }
-
 .contact {
   border-style: solid;
+}
+
+/*Text overlay*/
+.imgWrap {
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  color: #fff;
+  text-shadow: 2px 2px 3px black;
+  visibility: hidden;
+  opacity: 0;
+
+  /*uncomment if you want a gradual transition between states*/
+  -webkit-transition: visibility opacity 0.2s;
+}
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
 }
