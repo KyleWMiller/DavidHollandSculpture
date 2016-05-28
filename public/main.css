@@ -46,7 +46,6 @@ body {
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Customization for images*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
-
 .sml-box {
   width:150px;
   height:150px;
@@ -54,42 +53,33 @@ body {
 }
 .lrg-box {
   width:350px;
-  height:425px;
+  height:400px;
 }
 .aboutBox {
-  width: 30%;
-  height: 350px;
+  width: 600px;
+  height: 400px;
   border-style: solid;
-  float: right;
-  margin-top: 80px;
-  margin-right: 250px;
 }
 .contact {
   border-style: solid;
 }
-
-/*Text overlay*/
-.imgWrap {
-  position: relative;
-  height: 150px;
-  width: 150px;
+.buffs {
+  margin-top: 70px;
 }
-.imgDescription {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: transparent;
-  color: #fff;
-  text-shadow: 2px 2px 3px black;
-  visibility: hidden;
-  opacity: 0;
 
-  /*uncomment if you want a gradual transition between states*/
-  -webkit-transition: visibility opacity 0.2s;
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*Image position adjustments*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.pos1 {
+  transform: translate(30px,0px);
 }
-.imgWrap:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
+.pos2 {
+  transform: translate(-15px,0px);
+}
+.pos3 {
+  transform: translate(0px,35px);
+}
+.pos4 {
+  transform: translate(50px,0px);
 }

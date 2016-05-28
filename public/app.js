@@ -30,9 +30,12 @@
   }
 
 function MainController() {
+  
+  // Javascript for the image pop out
   $(document).ready(function(){
   $('.materialboxed').materialbox();
-});
+})
+
 }
 
 }());
