@@ -21,12 +21,16 @@ body {
   padding-left: 20px !important;
 }
 .nav-optdh {
-  margin: 20px;
+  margin: 25px;
 }
 .nav-optdh-bot {
   position: relative;
   transform: translate(5px, -20px);
 }
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*Misc*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 .backing {
   z-index: -10;
   position: absolute;
@@ -41,6 +45,12 @@ body {
   color:white;
   position: relative;
   transform: translate(0px, -35px);
+}
+.boarder-light {
+  border: 1px lightgrey solid;
+  border-radius: 7px;
+  margin: 30px;
+  padding: 25px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -81,4 +91,11 @@ body {
 }
 .pos4 {
   transform: translate(50px,0px);
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*On the Slab CSS*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.slab-title {
+  margin-top: 30px;
 }
