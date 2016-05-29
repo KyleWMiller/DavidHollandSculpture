@@ -50,8 +50,13 @@ body {
   border: 1px lightgrey solid;
   border-radius: 7px;
   margin: 30px;
-  padding: 25px;
+  padding: 15px;
 }
+.squeeze {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Customization for images*/
@@ -98,4 +103,11 @@ body {
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 .slab-title {
   margin-top: 30px;
+}
+.slabSqueese {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.right-buff {
+  margin-left: 30px;
 }
