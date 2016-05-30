@@ -5,7 +5,7 @@ body {
    display: flex;
    min-height: 100vh;
    flex-direction: column;
-   font-family: Rockwell,Courier,Courier,Georgia,Times,Times New Roman,serif;
+   font-family: "Open Sans";
  }
  main {
    flex: 1 0 auto;
@@ -21,12 +21,16 @@ body {
   padding-left: 20px !important;
 }
 .nav-optdh {
-  margin: 20px;
+  margin: 25px;
 }
 .nav-optdh-bot {
   position: relative;
   transform: translate(5px, -20px);
 }
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*Misc*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 .backing {
   z-index: -10;
   position: absolute;
@@ -42,6 +46,17 @@ body {
   position: relative;
   transform: translate(0px, -35px);
 }
+.boarder-light {
+  border: 1px lightgrey solid;
+  border-radius: 7px;
+  margin: 30px;
+  padding: 15px;
+}
+.squeeze {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Customization for images*/
@@ -58,7 +73,6 @@ body {
 .aboutBox {
   width: 600px;
   height: 400px;
-  border-style: solid;
 }
 .contact {
   border-style: solid;
@@ -82,4 +96,18 @@ body {
 }
 .pos4 {
   transform: translate(50px,0px);
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+/*On the Slab CSS*/
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.slab-title {
+  margin-top: 30px;
+}
+.slabSqueese {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.right-buff {
+  margin-left: 30px;
 }
