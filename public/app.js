@@ -37,9 +37,9 @@
         url: '/ReadAboutIt',
         templateUrl: '/partials/readaboutit.html'
       })
-      .state('RecentWork', {
-        url: '/RecentWork',
-        templateUrl: '/partials/recentwork.html'
+      .state('Minatures', {
+        url: '/Minatures',
+        templateUrl: '/partials/minatures.html'
       })
       .state('EarlyExplorations', {
         url: '/EarlyExplorations',
