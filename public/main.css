@@ -21,11 +21,14 @@ body {
   padding-left: 20px !important;
 }
 .nav-optdh {
-  margin: 25px;
+  margin: 20px;
 }
 .nav-optdh-bot {
   position: relative;
   transform: translate(5px, -20px);
+}
+.button-width {
+  width:155px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -56,7 +59,9 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
-
+.buffs {
+  margin-top: 70px;
+}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Customization for images*/
@@ -76,9 +81,6 @@ body {
 }
 .contact {
   border-style: solid;
-}
-.buffs {
-  margin-top: 70px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/

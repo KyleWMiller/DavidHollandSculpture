@@ -9,9 +9,9 @@
   function MainRouter($stateProvider, $urlRouterProvider, $httpProvider) {
 
     $stateProvider
-      .state('HomePage', {
+      .state('Home', {
         url: '/',
-        templateUrl: '/partials/home.html'
+        templateUrl: '/partials/slab.html'
       })
       .state('About', {
         url: '/About',
@@ -21,16 +21,16 @@
         url: '/Contact',
         templateUrl: '/partials/contact.html'
       })
-      .state('Slab', {
-        url: '/Slab',
-        templateUrl: '/partials/slab.html'
+      .state('Gallery', {
+        url: '/Gallery',
+        templateUrl: '/partials/gallery.html'
       })
 
     $urlRouterProvider.otherwise('/')
   }
 
 function MainController() {
-  
+
   // Javascript for the image pop out
   $(document).ready(function(){
   $('.materialboxed').materialbox();
