@@ -97,7 +97,8 @@ blockquote {
 }
 
 .gallery-image img {
-  height: 300px;
+  height: 200px;
+  width: 200px;
   margin: 10px auto;
 }
 
