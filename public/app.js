@@ -45,6 +45,26 @@
         url: '/EarlyExplorations',
         templateUrl: '/partials/earlyexplorations.html'
       })
+      .state('BodyParts', {
+        url: '/BodyParts',
+        templateUrl: '/partials/bodyparts.html'
+      })
+      .state('EngineeringDetails', {
+        url: '/EngineeringDetails',
+        templateUrl: '/partials/engineeringdetails.html'
+      })
+      .state('Figures', {
+        url: '/Figures',
+        templateUrl: '/partials/figures.html'
+      })
+      .state('Linear', {
+        url: '/Linear',
+        templateUrl: '/partials/linear.html'
+      })
+      .state('StrangeMachines', {
+        url: '/StrangeMachines',
+        templateUrl: '/partials/strangemachines.html'
+      })
       .state('BodyMap', {
         url: '/BodyMap',
         templateUrl: '/partials/bodymap.html'
