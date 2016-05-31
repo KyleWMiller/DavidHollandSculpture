@@ -6,12 +6,16 @@ body {
    min-height: 100vh;
    flex-direction: column;
    font-family: "Open Sans";
+   font-size: 18px;
  }
  main {
    flex: 1 0 auto;
  }
 .row {
   margin-bottom: 0 !important;
+}
+blockquote {
+  border-left: 5px solid #1E88E5 !important;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -61,6 +65,9 @@ body {
 }
 .buffs {
   margin-top: 70px;
+}
+.rounded {
+  border-radius: 3px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
