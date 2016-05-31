@@ -25,9 +25,37 @@
         url: '/Artwork',
         templateUrl: '/partials/artwork.html'
       })
-      .state('Gallery', {
-        url: '/Gallery',
-        templateUrl: '/partials/gallery.html'
+      .state('BodyBuilding', {
+        url: '/BodyBuilding',
+        templateUrl: '/partials/bodybuilding.html'
+      })
+      .state('Bodies', {
+        url: '/Bodies',
+        templateUrl: '/partials/bodies.html'
+      })
+      .state('ReadAboutIt', {
+        url: '/ReadAboutIt',
+        templateUrl: '/partials/readaboutit.html'
+      })
+      .state('RecentWork', {
+        url: '/RecentWork',
+        templateUrl: '/partials/recentwork.html'
+      })
+      .state('EarlyExplorations', {
+        url: '/EarlyExplorations',
+        templateUrl: '/partials/earlyexplorations.html'
+      })
+      .state('BodyMap', {
+        url: '/BodyMap',
+        templateUrl: '/partials/bodymap.html'
+      })
+      .state('Stonework', {
+        url: '/Stonework',
+        templateUrl: '/partials/stonework.html'
+      })
+      .state('Installations', {
+        url: '/Installations',
+        templateUrl: '/partials/installations.html'
       })
 
     $urlRouterProvider.otherwise('/')
