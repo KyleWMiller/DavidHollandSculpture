@@ -21,6 +21,10 @@
         url: '/Contact',
         templateUrl: '/partials/contact.html'
       })
+      .state('Artwork', {
+        url: '/Artwork',
+        templateUrl: '/partials/artwork.html'
+      })
       .state('Gallery', {
         url: '/Gallery',
         templateUrl: '/partials/gallery.html'
