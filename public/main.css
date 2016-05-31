@@ -1,3 +1,5 @@
+/*nav-optdh gallery-image in-b-line*/
+
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Normalizing*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -92,6 +94,11 @@ blockquote {
 }
 .contact {
   border-style: solid;
+}
+
+.gallery-image img {
+  height: 300px;
+  margin: 10px auto;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
