@@ -56,7 +56,7 @@ blockquote {
   transform: translate(0px, -35px);
 }
 .boarder-light {
-  border: 1px lightgrey solid;
+  border: 1px black solid;
   border-radius: 7px;
   margin: 30px;
   padding: 15px;
