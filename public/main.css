@@ -33,8 +33,9 @@ blockquote {
   position: relative;
   transform: translate(5px, -20px);
 }
-.button-width {
+.button-size {
   width:155px;
+  height:65px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
