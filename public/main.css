@@ -27,15 +27,20 @@ blockquote {
   padding-left: 20px !important;
 }
 .nav-optdh {
-  margin: 20px;
+  margin-top: 35px;
+  margin-right: 10px;
 }
 .nav-optdh-bot {
   position: relative;
   transform: translate(5px, -20px);
 }
 .button-size {
-  width:155px;
-  height:65px;
+  width:125px;
+  height:45px;
+}
+
+.button-header {
+  padding-top: 5px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -50,8 +55,9 @@ blockquote {
   display: inline-block;
 }
 .art-but {
-  height:64px;
-  width:117px;
+  height:45px;
+  width:125px;
+  margin-right: 10px;
   color:white;
   position: relative;
   transform: translate(0px, -35px);
