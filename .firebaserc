@@ -1,5 +1,6 @@
 {
   "projects": {
-    "BarVenture": "sweltering-fire-9565"
+    "BarVenture": "sweltering-fire-9565",
+    "default": "sweltering-fire-9565"
   }
 }
