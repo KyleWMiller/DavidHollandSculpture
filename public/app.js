@@ -3,7 +3,6 @@
 
   angular.module('myApp', ['ui.router'])
     .config(MainRouter)
-    .controller(MainController)
 
 
   function MainRouter($stateProvider, $urlRouterProvider, $httpProvider) {
@@ -81,13 +80,5 @@
     $urlRouterProvider.otherwise('/')
   }
 
-function MainController() {
-
-  // Javascript for the image pop out
-  $(document).ready(function(){
-  $('.materialboxed').materialbox();
-})
-
-}
 
 }());
