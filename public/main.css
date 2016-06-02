@@ -96,13 +96,13 @@ blockquote {
   height:400px;
 }
 .aboutBox {
-  width: 600px;
-  height: 400px;
+  width: 700px;
+  height: 450px;
 }
 .contact {
   border-style: solid;
 }.imgBlok{
-  width:22%  
+  width:22%
 }
 .gallery-image {
   height: 200px;
@@ -122,7 +122,7 @@ blockquote {
   transform: translate(30px,0px);
 }
 .pos2 {
-  transform: translate(-15px,0px);
+  transform: translate(-25px,0px);
 }
 .pos3 {
   transform: translate(0px,35px);
