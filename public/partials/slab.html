@@ -45,14 +45,14 @@
             <h5 style="padding-left:20px;">Share Your Thoughts</h5>
           </p>
           <div class="input-field squeeze">
-            <input id="input_text" type="text" length="10" placeholder="Name">
+            <input id="input_text" type="text" length="10" placeholder="Name" ng-model="commentsCtrl.comment.name">
           </div>
         </div>
         <div class="row">
           <div class="input-field squeeze">
-            <textarea id="textarea1" class="materialize-textarea" length="60" placeholder="Thoughts..."></textarea>
+            <textarea id="textarea1" class="materialize-textarea" length="60" placeholder="Thoughts..." ng-model="commentsCtrl.comment.content"></textarea>
           </div>
-          <a class="waves-effect waves-light btn blue darken-1 right">Send It</a>
+          <a class="waves-effect waves-light btn blue darken-1 right" ng-click="commentsCtrl.addComment()">Send It</a>
         </div>
       </div>
 

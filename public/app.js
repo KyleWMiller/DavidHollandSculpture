@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('myApp', ['ui.router'])
+  angular.module('myApp', ['commentsControllers', 'ui.router', 'firebase'])
     .config(MainRouter)
 
 
@@ -10,7 +10,8 @@
     $stateProvider
       .state('Home', {
         url: '/',
-        templateUrl: '/partials/slab.html'
+        templateUrl: '/partials/slab.html',
+        controller: 'commentsController as commentsCtrl'
       })
       .state('About', {
         url: '/About',
