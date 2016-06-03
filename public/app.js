@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('myApp', ['commentsControllers', 'ui.router', 'firebase'])
+  angular.module('myApp', ['commentsControllers', 'galleryControllers', 'ui.router', 'firebase'])
     .config(MainRouter)
 
 
