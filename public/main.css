@@ -85,6 +85,9 @@ blockquote {
   height: 100px;
   width: 150px;
 }
+.modal {
+  background-image: url("images/SquareSplashPage (1).jpg") !important;
+}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Customization for images*/
