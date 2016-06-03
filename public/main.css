@@ -75,6 +75,9 @@ blockquote {
 .buffs {
   margin-bottom: 20px;
 }
+.buffs-top {
+  margin-top: 20px;
+}
 .rounded {
   border-radius: 3px;
 }
