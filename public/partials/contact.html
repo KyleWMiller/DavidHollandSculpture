@@ -19,33 +19,33 @@
       </div>
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="" id="first_name" type="text" class="validate">
+          <input placeholder="" id="first_name" type="text" class="validate" ng-model="mailCtrl.email.firstname">
           <label for="first_name">First Name</label>
         </div>
         <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
+          <input id="last_name" type="text" class="validate"ng-model="mailCtrl.email.lastname">
           <label for="last_name">Last Name</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="email" type="text" class="validate">
+          <input id="email" type="text" class="validate" ng-model="mailCtrl.email.from">
           <label for="email">Email</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="subject" type="text">
+          <input id="subject" type="text" ng-model="mailCtrl.email.subject">
           <label for="email">Subject</label>
         </div>
       </div>
       <div class="row">
         <div class="input-field col s12">
-          <input id="comment" type="text">
+          <input id="comment" type="text" ng-model="mailCtrl.email.text">
           <label for="comment">Comment for David Holland</label>
         </div>
       </div>
-      <a class="waves-effect waves-light btn nav-optdh blue darken-1 right" >Send It</a>
+      <a class="waves-effect waves-light btn nav-optdh blue darken-1 right" ng-click="mailCtrl.sendEmail()">Send It</a>
     </form>
   </div>
 
