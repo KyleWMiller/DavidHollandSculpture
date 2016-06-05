@@ -1,7 +1,7 @@
 {
   "name": "dsholland",
   "version": "1.0.0",
-  "description": "",
+  "description": "David Holland's personal portfolio page",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/KyleWMiller/DavidHollandSculpture.git"
   },
-  "author": "",
+  "author": "Kyle Miller, Archit Mahto, Chris Terrazas",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/KyleWMiller/DavidHollandSculpture/issues"
