@@ -1,25 +1,25 @@
 <script type="text/javascript">
 $(document).ready(function(){
-  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-  $('#splashModal').openModal();
+
+  if (!document.cookie) {
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('#splashModal').openModal();
+  }
+
 })
 </script>
 
 
-<!-- Splash Modal Trigger -->
-  <!-- <a class="modal-trigger waves-effect waves-light btn" href="#splashModal">Modal</a> -->
-
   <!-- Splash Modal Structure -->
   <div id="splashModal" class="modal modal-fixed-footer">
-    <div class="modal-content">
-      <h4 class="center-align">DSHollandSculpture</h4>
-      <div class="">
+    <div class="modal-content black">
+      <h2 class="center-align white-text">Welcome to DSHollandSculpture</h2>
+      <div class="center-align">
         <img class="gImg" src="images/StudioOverview600.jpg" alt="workshop picture" />
       </div>
     </div>
-    <div class="modal-footer black">
-      <a href="#!" class="modal-action modal-close blue darken-1
-waves-effect waves-light btn-flat white-text">Continue</a>
+    <div class="modal-footer black center-align">
+      <a href="#!" class="modal-action modal-close waves-effect waves-light white-text"><h3 class="blue darken-1 waves-effect waves-light center-align rounded">Start Exploring!</h3></a>
     </div>
   </div>
 
