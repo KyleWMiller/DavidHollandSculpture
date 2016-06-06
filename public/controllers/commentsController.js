@@ -25,5 +25,10 @@
       })
       commentsCtrl.comment = {};
     }
+
+    commentsCtrl.cookie = function () {
+      var cookie = "The welcome modal will no longer show"
+      document.cookie = cookie
+    }
   }
 }());

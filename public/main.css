@@ -24,10 +24,10 @@ blockquote {
   width:auto;
 }
 .modal.modal-fixed-footer {
-  height: 85%!important;
+  height:90%!important;
 }
-.modal.modal-footer {
-  height:100px !important;
+.modal-footer {
+  height:75px !important;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -125,6 +125,9 @@ blockquote {
 }
 .gImg {
   max-height:100%;
+}
+.mImg {
+  height:75%;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
