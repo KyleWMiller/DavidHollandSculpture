@@ -121,7 +121,7 @@ blockquote {
   height: 200px;
   width: 200px;
   overflow: hidden;
-  padding:10px;
+  /*padding:10px;*/
 }
 .gImg {
   max-height:100%;
