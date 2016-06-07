@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  angular.module('myApp', ['commentsControllers', 'ui.router', 'firebase'])
+  angular.module('myApp', ['commentsControllers', 'mailControllers', 'mailFactory', 'ui.router', 'firebase'])
     .config(MainRouter)
 
 
@@ -19,7 +19,8 @@
       })
       .state('Contact', {
         url: '/Contact',
-        templateUrl: '/partials/contact.html'
+        templateUrl: '/partials/contact.html',
+        controller: 'mailController as mailCtrl'
       })
       .state('Artwork', {
         url: '/Artwork',
