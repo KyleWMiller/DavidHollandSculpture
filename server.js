@@ -8,17 +8,10 @@ var express = require('express'),
   cors = require('cors'),
   path = require('path'),
   nodemailer = require('nodemailer'),
+  smtpTransport = require('nodemailer-smtp-transport'),
   port = process.env.PORT || 3000,
   // apiRoutes = require('./api_routes.js'),
   mongoose = require('mongoose')
-//   databaseURL = "mongodb://Aremmer:Elfkid20@ds021711.mlab.com:21711/soils"
-//
-// mongoose.connect(databaseURL, function(err){
-//   if(err){
-//     console.log(err)
-//   }
-//   console.log("connected to db")
-// })
 
 app.use(logger('dev'))
 app.use(bodyParser.json())
@@ -29,8 +22,33 @@ app.use(express.static(path.join(__dirname, './public')))
 // http://localhost:3000/api/v1/'./public/*'
 
 app.post('/sendEmail', function (req, res) {
-  console.log(req.body);
-  res.json({message: "Successfully sent email."})
+
+  var transporter = nodemailer.createTransport(smtpTransport({
+    service: 'Gmail',
+    auth: {
+      user: process.env.EMAILUSER,
+      pass: process.env.EMAILPASS
+    }
+  }))
+
+  // console.log('SMTP Configured');
+
+  var mailOptions = {
+    from: {
+      name: req.body.firstname + ' ' + req.body.lastname,
+      address: req.body.from
+    },
+    replyTo: req.body.from,
+    to: process.env.RECEMAIL,
+    subject: req.body.subject,
+    text: req.body.text
+  }
+
+  transporter.sendMail(mailOptions, function (err, info) {
+    if (err) res.json(err);
+    else res.json('Message Successfully Sent', info);
+  })
+
 })
 
 app.listen(port, function () {

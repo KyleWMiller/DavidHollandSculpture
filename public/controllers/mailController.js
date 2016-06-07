@@ -13,7 +13,6 @@
 
     mailCtrl.sendEmail = function() {
       console.log(mailCtrl.email);
-      // mailCtrl.email = {};
 
       emailFactory.send(mailCtrl.email)
         .then(function(response) {
