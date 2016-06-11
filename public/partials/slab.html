@@ -65,17 +65,17 @@
       </div>
 
       <div class="boarder-light">
-        <!-- <h5>~ Kyle Miller</h5>
-        <blockquote>
-        I felt the complexity of this image based off of something that I felt/I am an art major and I know what I am talking about. This piece invoked this emotion and I am now a complete humanbeing. ....
-      </blockquote> -->
+
+        <h4>Comments</h4>
+
+        <div class="container">
+          <div class="divider"></div>
+        </div>
 
         <div class="comment" ng-repeat="comment in commentsCtrl.comments">
           <!-- <h5>~ Archit Mahto</h5> -->
           <h5>~ {{comment.name}}</h5>
-          <!-- <blockquote>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ad nesciunt commodi, magni adipisci architecto explicabo sit porro, odio dicta ipsa mollitia veniam in necessitatibus consequatur, quod assumenda fugiat, sapiente?
-      </blockquote> -->
+
           <blockquote>
             {{comment.content}}
           </blockquote>

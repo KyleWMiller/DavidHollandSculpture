@@ -146,6 +146,10 @@ blockquote {
 .pos4 {
   transform: translate(50px,0px);
 }
+.posbot {
+  bottom: 0;
+  left:0;
+}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*On the Slab CSS*/
