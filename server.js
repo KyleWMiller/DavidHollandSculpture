@@ -23,8 +23,8 @@ app.post('/sendEmail', function (req, res) {
   var transporter = nodemailer.createTransport(smtpTransport({
     service: 'Gmail',
     auth: {
-      user: process.env.EMAILUSER,
-      pass: process.env.EMAILPASS
+      user: "mailernode99@gmail.com",
+      pass: "ercerb5680"
     }
   }))
 
@@ -36,7 +36,7 @@ app.post('/sendEmail', function (req, res) {
       address: req.body.from
     },
     replyTo: req.body.from,
-    to: process.env.RECEMAIL,
+    to: "miller.kwill@gmail.com",
     subject: req.body.subject,
     text: req.body.text
   }

@@ -95,6 +95,9 @@ blockquote {
   height: 100px;
   width: 150px;
 }
+.buttonMar {
+  margin:15px;
+}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Customization for images*/
