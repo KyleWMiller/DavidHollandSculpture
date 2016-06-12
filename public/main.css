@@ -118,8 +118,9 @@ blockquote {
   width:30%
 }
 .gallery-image {
-  height: 200px;
-  width: 200px;
+  /*height: 200px;
+  width: 200px;*/
+  margin-bottom: 20px;
   overflow: hidden;
   /*padding:10px;*/
 }
