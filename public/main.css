@@ -85,6 +85,10 @@ blockquote {
 .buffs {
   margin-bottom: 20px;
 }
+.buffs1 {
+  margin-bottom: 20px;
+  height: 320px;
+}
 .buffs-top {
   margin-top: 20px;
 }
@@ -108,8 +112,8 @@ blockquote {
   margin:25px;
 }
 .lrg-box {
-  width:350px;
-  height:400px;
+  width:400px;
+  height:475px;
 }
 .aboutBox {
   width: 700px;
@@ -121,17 +125,27 @@ blockquote {
   width:30%
 }
 .gallery-image {
-  /*height: 200px;
-  width: 200px;*/
   margin-bottom: 20px;
   overflow: hidden;
-  /*padding:10px;*/
 }
+.gallery-image1 {
+  margin-bottom: 20px;
+  overflow: hidden;
+  height:200px;
+  width:200px;
+}
+
 .gImg {
   max-height:100%;
 }
 .mImg {
   height:75%;
+}
+.rel {
+  position: relative;
+}
+.imgDescriptionAlt {
+  transform: translateY(-25px);
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -154,7 +168,6 @@ blockquote {
   bottom: 0;
   left:0;
 }
-
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*On the Slab CSS*/
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/

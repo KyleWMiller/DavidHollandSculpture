@@ -5,7 +5,7 @@ var express = require('express'),
   app = express(),
   bodyParser = require('body-parser'),
   logger = require('morgan'),
-  cors = require('cors'),
+  // cors = require('cors'),
   path = require('path'),
   nodemailer = require('nodemailer'),
   smtpTransport = require('nodemailer-smtp-transport'),
@@ -15,7 +15,7 @@ var express = require('express'),
 app.use(logger('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
-app.use(cors())
+// app.use(cors())
 app.use(express.static(path.join(__dirname, './public')))
 
 app.post('/sendEmail', function (req, res) {

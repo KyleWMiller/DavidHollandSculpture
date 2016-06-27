@@ -1,178 +1,180 @@
 <script type="text/javascript">
-  $(document).ready(function() {
-
     if (!document.cookie) {
-      // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-      $('#splashModal').openModal();
+        $('#splashModal').openModal();
     }
-
-  })
+    $(document).ready(function() {
+        $('.materialboxed').materialbox();
+    })
 </script>
 
 
 <!-- Splash Modal Structure -->
 <div id="splashModal" class="modal modal-fixed-footer">
-  <div class="modal-content black">
-    <h4 class="center-align white-text">Welcome to DSHollandSculpture</h4>
-    <div class="center-align">
-      <img class="mImg" src="images/StudioOverview600.jpg" alt="workshop picture" />
+    <div class="modal-content black">
+        <h2 class="center-align white-text">Welcome to DSHollandSculpture</h2>
+        <div class="center-align">
+            <img class="mImg" src="images/StudioOverview600.jpg" alt="workshop picture" />
+        </div>
     </div>
-  </div>
-  <div class="modal-footer black">
-    <a href="#!" ng-click="commentsCtrl.cookie()" class="modal-action modal-close waves-effect waves-light white-text btn-large blue darken-1 nav-optdh valign-wrapper">Continue ></a>
-  </div>
+    <div class="modal-footer black">
+        <a href="#!" ng-click="commentsCtrl.cookie()" class="modal-action modal-close waves-effect waves-light white-text btn-large blue darken-1 nav-optdh valign-wrapper">Continue ></a>
+    </div>
 </div>
 
 <div class="slabSqueese">
 
-  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-  <!-- left column -->
-  <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-  <div class="row">
-    <h1 class="center-align">
+    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+    <!-- left column -->
+    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+    <div class="row">
+        <h1 class="center-align">
       <strong>David Holland Sculpture</strong>
     </h1>
-  </div>
-  <div class="row in-b-line">
-    <div class="col l7 s12 z-depth-1 slabSqueese in-b-line">
-      <h3 class="center-align">On the Slab...</h3>
-
-      <div class="container">
-        <div class="divider"></div>
-      </div>
-
-      <!-- Editable -->
-      <!-- On The Slab Title       |                      | -->
-      <h5 class="center slab-title">Humility Wall Pedestal</h5>
-      <!-- end editable -->
-
-      <div class="row section">
-        <div class="col l12 s12">
-        </div>
-        <div class="col l12 s12 center-align">
-
-          <!-- Editable -->
-          <!-- Change images here    |                                       | -->
-          <img class="nav-optdh" src="/images/Humility-PedestalonWall1200.jpg" style="height:350px;">
-          <img class="nav-optdh" src="/images/Humility-PedestalonWall1200.jpg" style="height:350px;">
-          <!-- end editable -->
-
-        </div>
-      </div>
-      <div class="boarder-light">
-
-        <!-- Editable -->
-        <!-- This section controls the main content of your On The Slab post -->
-        <p>
-          <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium unde quo corporis quasi quisquam. Similique, quos porro voluptas, recusandae, numquam rerum in obcaecati eligendi nam iste fugiat quasi tenetur aliquam.</span>
-          <span>Ad dicta accusamus optio tempora, dolores, voluptates consequuntur laborum amet doloremque cumque dolor ipsum nostrum. Mollitia eligendi tempora, saepe itaque consequuntur et sit rem provident totam fugit! Obcaecati ea, culpa?</span>
-          <span>Unde accusantium ad, earum maiores illo! Itaque laudantium sed, aperiam, temporibus fuga vitae repellendus suscipit sapiente veniam necessitatibus iure expedita dolores deleniti optio sunt molestias. Omnis beatae labore at molestias.</span>
-        </p>
-
-        <p>This is the place you can write about your newest project.</p>
-        <!-- end editable -->
-
-      </div>
-
-      <div class="container">
-        <div class="divider"></div>
-      </div>
-
-      <div class="boarder-light">
-
-        <h4>Comments</h4>
-
-        <div class="container">
-          <div class="divider"></div>
-        </div>
-
-        <div class="comment" ng-repeat="comment in commentsCtrl.comments">
-          <h5>~ {{comment.name}}</h5>
-          <blockquote>
-            {{comment.content}}
-          </blockquote>
-        </div>
-      </div>
-      <div class="container">
-        <div class="divider"></div>
-      </div>
-      <div class="boarder-light">
-        <div class="row">
-          <p>
-            <h5 style="padding-left:20px;">Share Your Thoughts</h5>
-          </p>
-          <div class="input-field squeeze">
-            <input id="input_text" type="text" length="10" placeholder="Name" ng-model="commentsCtrl.comment.name">
-          </div>
-        </div>
-        <div class="row">
-          <div class="input-field squeeze">
-            <textarea id="textarea1" class="materialize-textarea" length="60" placeholder="Thoughts..." ng-model="commentsCtrl.comment.content"></textarea>
-          </div>
-          <a class="waves-effect waves-light btn blue darken-1 right" ng-click="commentsCtrl.addComment()">Send It</a>
-        </div>
-      </div>
     </div>
+    <div class="row in-b-line">
+        <div class="col l7 s12  slabSqueese in-b-line">
+            <h3 class="center-align">On the Slab...</h3>
 
+            <div class="container">
+                <div class="divider"></div>
+            </div>
 
-    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-    <!-- Right column -->
-    <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-    <div class="col l4 s12 z-depth-1 slabSqueese in-b-line">
-      <div class="boarder-light">
+            <!-- Editable -->
+            <!-- On The Slab Title       |                      | -->
+            <h5 class="center slab-title">Humility Wall Pedestal</h5>
+            <!-- end editable -->
 
-        <!-- Editable -->
-        <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-        <!-- Featured Blog Post -->
-        <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-        <h4>Featured Blog Post</h4>
-        <div class="container">
-          <div class="divider"></div>
+            <div class="row section">
+                <div class="col l12 s12">
+                </div>
+                <div class="col l12 s12 center-align">
+
+                    <!-- Editable -->
+                    <!-- Change images here    |                                       | <-->
+                    <div class="row">
+                        <div class="col s6 l6">
+                            <img class="nav-optdh materialboxed" src="/images/Humility-PedestalonWall1200.jpg" style="height:350px;">
+                        </div>
+                        <div class="col s6 l6">
+                            <img class="nav-optdh materialboxed" src="/images/Humility-PedestalonWall1200.jpg" style="height:350px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boarder-light">
+
+                <!-- Editable -->
+                <!-- This section controls the main content of your On The Slab post -->
+                <p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium unde quo corporis quasi quisquam. Similique, quos porro voluptas, recusandae, numquam rerum in obcaecati eligendi nam iste fugiat quasi tenetur aliquam.</span>
+                    <span>Ad dicta accusamus optio tempora, dolores, voluptates consequuntur laborum amet doloremque cumque dolor ipsum nostrum. Mollitia eligendi tempora, saepe itaque consequuntur et sit rem provident totam fugit! Obcaecati ea, culpa?</span>
+                    <span>Unde accusantium ad, earum maiores illo! Itaque laudantium sed, aperiam, temporibus fuga vitae repellendus suscipit sapiente veniam necessitatibus iure expedita dolores deleniti optio sunt molestias. Omnis beatae labore at molestias.</span>
+                </p>
+
+                <p>This is the place you can write about your newest project.</p>
+                <!-- end editable -->
+
+            </div>
+
+            <div class="container">
+                <div class="divider"></div>
+            </div>
+
+            <div class="boarder-light">
+
+                <h4>Comments</h4>
+
+                <div class="container">
+                    <div class="divider"></div>
+                </div>
+
+                <div class="comment" ng-repeat="comment in commentsCtrl.comments">
+                    <h5>~ {{comment.name}}</h5>
+                    <blockquote>
+                        {{comment.content}}
+                    </blockquote>
+                </div>
+            </div>
+            <div class="container">
+                <div class="divider"></div>
+            </div>
+            <div class="boarder-light">
+                <div class="row">
+                    <p>
+                        <h5 style="padding-left:20px;">Share Your Thoughts</h5>
+                    </p>
+                    <div class="input-field squeeze">
+                        <input id="input_text" type="text" length="10" placeholder="Name" ng-model="commentsCtrl.comment.name">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field squeeze">
+                        <textarea id="textarea1" class="materialize-textarea" length="60" placeholder="Thoughts..." ng-model="commentsCtrl.comment.content"></textarea>
+                    </div>
+                    <a class="waves-effect waves-light btn blue darken-1 right" ng-click="commentsCtrl.addComment()">Send It</a>
+                </div>
+            </div>
         </div>
 
 
-        <!-- Blog Post Date       |            | -->
-        <h6 style="color:#A9A9A9;">March 6, 2016</h6>
+        <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+        <!-- Right column -->
+        <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+        <div class="col l4 s12  slabSqueese in-b-line">
+            <div class="boarder-light">
 
-        <!-- Change Img here       |                                          | -->
-        <img class="blog-img" src="images/Functional/Functional-EJH3-4View.jpg" />
+                <!-- Editable -->
+                <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+                <!-- Featured Blog Post -->
+                <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+                <h4>Featured Blog Post</h4>
+                <div class="container">
+                    <div class="divider"></div>
+                </div>
 
-        <!-- Blog Content -->
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magni laboriosam quidem id esse veniam, quia dolorum eaque ratione consequatur voluptatibus, adipisci ducimus rem sapiente hic asperiores enim in, debitis?
-        </p>
-        <p>
-          This is the featured blog post.
-        </p>
-      </div>
 
-      <!-- Editable -->
-      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-      <!-- Recent Blog Post -->
-      <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-      <div class="boarder-light">
-        <h4>Recent Blog Post</h4>
+                <!-- Blog Post Date       |            | -->
+                <h6 style="color:#A9A9A9;">March 6, 2016</h6>
 
-        <div class="container">
-          <div class="divider"></div>
+                <!-- Change Img here       |                                          | -->
+                <img class="blog-img" src="images/Functional/Functional-EJH3-4View.jpg" />
+
+                <!-- Blog Content -->
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda magni laboriosam quidem id esse veniam, quia dolorum eaque ratione consequatur voluptatibus, adipisci ducimus rem sapiente hic asperiores enim in, debitis?
+                </p>
+                <p>
+                    This is the featured blog post.
+                </p>
+            </div>
+
+            <!-- Editable -->
+            <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+            <!-- Recent Blog Post -->
+            <!-- =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+            <div class="boarder-light">
+                <h4>Recent Blog Post</h4>
+
+                <div class="container">
+                    <div class="divider"></div>
+                </div>
+
+                <!-- If you want to make a new blog post copy from  -->
+                <!-- here to =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
+                <h5>Blog Title</h5>
+
+                <h6 style="color:#A9A9A9;">March 6, 2016</h6>
+                <img class="blog-img" src="images/Functional/Functional-WDHBags1.jpg" />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatibus quis quod facere minus numquam mollitia harum nihil, tenetur, incidunt itaque, ipsam commodi officia sit illum excepturi, quos odit placeat!
+                </p>
+                <p>
+                    This is the most recent blog post that you made.
+                </p>
+                <!-- here =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
+
+            </div>
+
         </div>
-
-        <!-- If you want to make a new blog post copy from  -->
-        <!-- here to =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= -->
-        <h5>Blog Title</h5>
-
-        <h6 style="color:#A9A9A9;">March 6, 2016</h6>
-        <img class="blog-img" src="images/Functional/Functional-WDHBags1.jpg" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni voluptatibus quis quod facere minus numquam mollitia harum nihil, tenetur, incidunt itaque, ipsam commodi officia sit illum excepturi, quos odit placeat!
-        </p>
-        <p>
-          This is the most recent blog post that you made.
-        </p>
-        <!-- here =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-->
-
-      </div>
 
     </div>
-
-  </div>
