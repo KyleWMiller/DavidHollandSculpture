@@ -165,8 +165,7 @@ blockquote {
   transform: translate(50px,0px);
 }
 .posbot {
-  bottom: 0;
-  left:0;
+  vertical-align: bottom;
 }
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*On the Slab CSS*/
