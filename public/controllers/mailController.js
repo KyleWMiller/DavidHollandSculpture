@@ -15,7 +15,7 @@
 
       emailFactory.send(mailCtrl.email)
         .then(function(response) {
-          console.log(response)
+          // console.log(response)
           mailCtrl.email = {};
           console.log("Successfully sent email.");
         })
