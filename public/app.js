@@ -4,7 +4,6 @@
   angular.module('myApp', ['commentsControllers', 'mailControllers', 'mailFactory', 'ui.router', 'firebase'])
     .config(MainRouter)
 
-
   function MainRouter($stateProvider, $urlRouterProvider, $httpProvider) {
 
     $stateProvider

@@ -19,16 +19,6 @@ body {
 blockquote {
   border-left: 5px solid #1E88E5 !important;
 }
-.modal {
-  max-height:100%;
-  width:auto;
-}
-.modal.modal-fixed-footer {
-  height:90%!important;
-}
-.modal-footer {
-  height:75px !important;
-}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Nav Bars*/
@@ -44,6 +34,9 @@ blockquote {
   position: relative;
   transform: translate(5px, -20px);
 }
+.slabTab {
+  transform: translateY(-8px);
+}
 .button-size {
   width:125px;
   height:45px;
@@ -51,6 +44,12 @@ blockquote {
 
 .button-header {
   padding-top: 5px;
+  margin: 10px;
+
+}
+.contactBox {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
@@ -102,6 +101,16 @@ blockquote {
 .buttonMar {
   margin:15px;
 }
+.modal {
+  max-height:100%;
+  width:auto;
+}
+.modal.modal-fixed-footer {
+  height:90%!important;
+}
+.modal-footer {
+  height:75px !important;
+}
 
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 /*Customization for images*/
@@ -117,7 +126,7 @@ blockquote {
 }
 .aboutBox {
   width: 700px;
-  height: 450px;
+  /*height: 450px;*/
 }
 .contact {
   border-style: solid;
@@ -139,7 +148,7 @@ blockquote {
   max-height:100%;
 }
 .mImg {
-  height:75%;
+  height:30%;
 }
 .rel {
   position: relative;

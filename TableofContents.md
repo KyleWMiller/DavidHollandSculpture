@@ -1,11 +1,9 @@
 Table of Contents
 
-The files that you want to access are mostly located in the <public/partials> folder. The title of the partial page should directly reflect their contents.
+The files that you want to access are mostly located in the    `public/partials`    folder. The title of the partial page should directly reflect their contents.
 
 
 - editable items -
-
-
 About
 - Your about picture
 - Your about description
@@ -23,8 +21,9 @@ Slab (On The Slab)
       :Date
       :Image
       :Blog content
+
+<!-- if you want to create a new blog post simply copy/paste an old one and edit the information -->
     - Recent blog post
-<!-- if you want to create a new blog post simply copy and old one and edit the information -->
       :Date
       :Image
       :Blog Content
