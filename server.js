@@ -24,7 +24,7 @@ app.post('/sendEmail', function (req, res) {
     service: 'Gmail',
     auth: {
       user: "mailernode99@gmail.com",
-      pass: "ercerb5680"
+      pass: "**********"
     }
   }))
 
